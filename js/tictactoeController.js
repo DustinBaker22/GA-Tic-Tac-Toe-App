@@ -26,15 +26,19 @@
 // Picks Random Player To Be X or O
     self.random = function () {
      if(Math.random() > 0.5) {
-      alert("Player One GO!");
+      // alert("Player One GO!");
       self.currentTurn = "X";
      } else {
-      alert("Player Two GO!");
+      // alert("Player Two GO!");
       self.currentTurn = "O";
      }
     };
 
     self.random();
+
+// function makeFlip() {
+//     ttt.flipped = true;
+// }
 
 // Clickbox Function
     self.clickbox = function($index) {
@@ -52,9 +56,12 @@
         }
 
 
+
 // Check for winner after each click
           self.winner(self.boxes[$index].value);
 };
+
+
 //       self.boxes.forEach(function(box, index) {
 //         if(box.square != self.playerOne && box.square != self.playerTwo) {
 //           hasMoves = true;
