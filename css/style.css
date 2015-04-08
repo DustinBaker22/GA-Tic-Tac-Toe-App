@@ -13,6 +13,12 @@ h1 {
   text-align: center;
   text-shadow:10px 10px 5px black;
   letter-spacing: 15px;
+  /*animation-duration: 30s;*/
+  /*animation-delay: 5s;*/
+  /*animation-iteration-count: infinite;*/
+  /*-webkit-animation-duration: 30s;*/
+  /*-webkit-animation-delay: 5s;*/
+  /*-webkit-animation-iteration-count: infinite;*/
 }
 
 .gameboard {
