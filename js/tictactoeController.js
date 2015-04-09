@@ -36,9 +36,7 @@
 
     self.random();
 
-// function makeFlip() {
-//     ttt.flipped = true;
-// }
+
 
 // Clickbox Function
     self.clickbox = function($index) {
@@ -61,15 +59,6 @@
           self.winner(self.boxes[$index].value);
 };
 
-
-//       self.boxes.forEach(function(box, index) {
-//         if(box.square != self.playerOne && box.square != self.playerTwo) {
-//           hasMoves = true;
-//     }
-//  else if(! hasMoves) {
-//     alert  ("No more moves!");
-// }
-//     });
 
 // Winner Fucntion
     self.winner = function(input) {

@@ -20,8 +20,6 @@
 <!-- Tic Tac Toe Gameboard -->
   <div class="gameboard">
     <div class="row animated rotateIn" ng-repeat="box in ttt.boxes" ng-click="ttt.clickbox($index)">{{box.value}}</div>
-    <!-- <div class = "start animated fadeInDown" ng-show="ttt.PLayerOne"><p>{{self.currentTurn}}</p><button class="startBtn" ng-click="ttt.playeronesaysgo">Im ready</button></div>
-    <div> -->
     <button type="button" class="resetbtn animated zoomInDown" ng-click="ttt.resetbtn()">RESET</button>
     </div>
 
